@@ -1,0 +1,32 @@
+[
+  {
+    "pdf": "data/raw/native/Ellenbarrie_RHP_industrial_gas.pdf",
+    "document_id": "ellenbarrie_rhp",
+    "company_name": "Ellenbarrie Industrial Gases Limited",
+    "document_type": "RHP"
+  },
+  {
+    "pdf": "data/raw/native/SEBI _ AEGIS VOPAK TERMINALS LIMITED - RHP_energy_terminal.pdf",
+    "document_id": "aegis_vopak_rhp",
+    "company_name": "Aegis Vopak Terminals Limited",
+    "document_type": "RHP"
+  },
+  {
+    "pdf": "data/raw/native/SEBI _ Brigade Hotel Ventures Limited- RHP_hospitality.pdf",
+    "document_id": "brigade_hotel_rhp",
+    "company_name": "Brigade Hotel Ventures Limited",
+    "document_type": "RHP"
+  },
+  {
+    "pdf": "data/raw/native/SEBI _ Pine Labs Ltd - RHP_fintech.pdf",
+    "document_id": "pine_labs_rhp",
+    "company_name": "Pine Labs Limited",
+    "document_type": "RHP"
+  },
+  {
+    "pdf": "data/raw/native/SEBI _ Sai Parenteral’s Limited - RHP_pharmaceutical.pdf",
+    "document_id": "sai_parenterals_rhp",
+    "company_name": "Sai Parenteral's Limited",
+    "document_type": "RHP"
+  }
+]

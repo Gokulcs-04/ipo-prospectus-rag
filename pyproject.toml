@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+markers = [
+    "integration: tests requiring real project documents or external OCR dependencies",
+]
