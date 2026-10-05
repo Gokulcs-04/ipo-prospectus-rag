@@ -1,0 +1,77 @@
+{
+  "document_id": "ellenbarrie_rhp",
+  "document_name": "Ellenbarrie Industrial Gases Limited RHP",
+  "evaluation_type": "retrieval",
+  "notes": "Audited gold-standard answer-bearing chunk IDs for the initial single-document retrieval baseline. Multiple IDs are included only when the same question is directly answerable from multiple authoritative chunks. Peripheral mentions and non-answering context chunks are excluded.",
+  "cases": [
+    {
+      "id": "revenue_fy2025",
+      "query": "What was the company's revenue from operations in Fiscal 2025?",
+      "relevant_chunk_ids": [
+        "ellenbarrie_rhp_chunk_0802"
+      ],
+      "rationale": "Canonical financial-information chunk directly reports Fiscal 2025 revenue from operations."
+    },
+    {
+      "id": "promoters",
+      "query": "Who are the promoters of the company?",
+      "relevant_chunk_ids": [
+        "ellenbarrie_rhp_chunk_0621"
+      ],
+      "rationale": "The Our Promoters and Promoter Group chunk explicitly names the company's promoters as Padam Kumar Agarwala and Varun Agarwal. Chunk 0622 discusses historical SPA Promoters and is not used as the primary answer-bearing evidence because it can include historical context beyond the current promoter designation."
+    },
+    {
+      "id": "cfo",
+      "query": "Who is the Chief Financial Officer of the company?",
+      "relevant_chunk_ids": [
+        "ellenbarrie_rhp_chunk_0617",
+        "ellenbarrie_rhp_chunk_0637"
+      ],
+      "rationale": "Chunk 0617 explicitly identifies K. Srinivas Prasad as CFO and provides his role history. Chunk 0637 independently shows his name next to the Chief Financial Officer title in the financial-information signature block."
+    },
+    {
+      "id": "fresh_issue",
+      "query": "What is the size of the Fresh Issue?",
+      "relevant_chunk_ids": [
+        "ellenbarrie_rhp_chunk_0067",
+        "ellenbarrie_rhp_chunk_0214",
+        "ellenbarrie_rhp_chunk_0279",
+        "ellenbarrie_rhp_chunk_0969"
+      ],
+      "rationale": "All four chunks are authoritative offer-related disclosures that explicitly state the Fresh Issue aggregates up to ₹4,000.00 million."
+    },
+    {
+      "id": "total_assets",
+      "query": "What were the company's total assets as at March 31, 2025?",
+      "relevant_chunk_ids": [
+        "ellenbarrie_rhp_chunk_0218",
+        "ellenbarrie_rhp_chunk_0636"
+      ],
+      "rationale": "Both the summary statement and the restated financial-information statement directly report Total Assets of ₹8,459.66 million for March 31, 2025."
+    },
+    {
+      "id": "objects_of_offer",
+      "query": "What are the objects of the Offer?",
+      "relevant_chunk_ids": [
+        "ellenbarrie_rhp_chunk_0068",
+        "ellenbarrie_rhp_chunk_0279",
+        "ellenbarrie_rhp_chunk_0280"
+      ],
+      "rationale": "Chunks 0068 and 0279 explicitly state the Offer objects; chunk 0280 is the corresponding Objects of the Offer table with the stated purposes and estimated amounts. Chunk 0213 is only a general Offer-details table and is not treated as answer-bearing for the objects question."
+    },
+    {
+      "id": "manufacturing_operations",
+      "query": "What does the prospectus say about the company's manufacturing operations?",
+      "relevant_chunk_ids": [
+        "ellenbarrie_rhp_chunk_0527",
+        "ellenbarrie_rhp_chunk_0528",
+        "ellenbarrie_rhp_chunk_0529",
+        "ellenbarrie_rhp_chunk_0530",
+        "ellenbarrie_rhp_chunk_0534",
+        "ellenbarrie_rhp_chunk_0547",
+        "ellenbarrie_rhp_chunk_0813"
+      ],
+      "rationale": "This is a broad company-level operations question. These chunks directly cover the company's manufacturing facilities and operational footprint (0527-0529), manufacturing capabilities and in-house project execution (0530), planned plant-manufacturing operations (0534), manufacturing capacity/actual production/capacity utilisation (0547), and manufacturing facilities and capacity-utilisation discussion in MD&A (0813). Peripheral industry-overview and generic risk-factor mentions are excluded."
+    }
+  ]
+}
