@@ -22,9 +22,9 @@ from collections import Counter
 from dataclasses import dataclass, field
 from itertools import groupby
 
-from chunk import DocumentChunk
-from document import Document, DocumentPage
-from metadata import RawChunk, build_document_chunks
+from ipo_analyzer.schemas.chunk import DocumentChunk
+from ipo_analyzer.schemas.document import Document, DocumentPage
+from .metadata import RawChunk, build_document_chunks
 
 
 # --------------------------------------------------------------------------- config
