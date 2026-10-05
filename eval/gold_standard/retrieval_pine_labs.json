@@ -1,0 +1,70 @@
+{
+  "document_id": "pine_labs_rhp",
+  "document_name": "Pine Labs Limited RHP",
+  "evaluation_type": "retrieval",
+  "notes": "Audited gold-standard answer-bearing chunk IDs for the Pine Labs single-document retrieval evaluation. Multiple IDs are included only when the same question is directly answerable from multiple authoritative chunks. Peripheral mentions and non-answering context chunks are excluded.",
+  "cases": [
+    {
+      "id": "revenue_fy2025",
+      "query": "What was the company's revenue from operations in Fiscal 2025?",
+      "relevant_chunk_ids": [
+        "pine_labs_rhp_chunk_1407",
+        "pine_labs_rhp_chunk_1417"
+      ],
+      "rationale": "Both chunks are authoritative Financial Information disclosures. Chunk 1407 contains the revenue-from-operations breakdown, while chunk 1417 directly states that revenue from operations increased to ₹22,742.74 million in Fiscal Year 2025."
+    },
+    {
+      "id": "promoter_status",
+      "query": "Does Pine Labs have an identifiable promoter?",
+      "relevant_chunk_ids": [
+        "pine_labs_rhp_chunk_0785"
+      ],
+      "rationale": "The Our Principal Shareholders section explicitly states that Pine Labs does not have an identifiable promoter under the SEBI ICDR Regulations and the Companies Act, 2013."
+    },
+    {
+      "id": "cfo",
+      "query": "Who is the Chief Financial Officer of the company?",
+      "relevant_chunk_ids": [
+        "pine_labs_rhp_chunk_0778"
+      ],
+      "rationale": "The Our Management chunk contains the management organisation structure identifying Sameer Vasudev Kamath as Chief Financial Officer, while the adjacent Key Managerial Personnel disclosure gives his role explicitly."
+    },
+    {
+      "id": "fresh_issue",
+      "query": "What is the size of the Fresh Issue?",
+      "relevant_chunk_ids": [
+        "pine_labs_rhp_chunk_0009",
+        "pine_labs_rhp_chunk_0453"
+      ],
+      "rationale": "Both chunks are authoritative Offer disclosures. Chunk 0009 states that the Fresh Issue aggregates up to ₹20,800.00 million, while chunk 0453 reports Gross Proceeds of the Fresh Issue of ₹20,800.00 million."
+    },
+    {
+      "id": "total_assets",
+      "query": "What were the company's total assets as at March 31, 2025?",
+      "relevant_chunk_ids": [
+        "pine_labs_rhp_chunk_0317",
+        "pine_labs_rhp_chunk_0794"
+      ],
+      "rationale": "Chunk 0317 is the summary restated statement of assets and liabilities and directly reports Total Assets of ₹107,157.37 million for March 31, 2025. Chunk 0794 is the corresponding restated financial-information statement and independently reports the same figure."
+    },
+    {
+      "id": "objects_of_offer",
+      "query": "What are the objects of the Offer?",
+      "relevant_chunk_ids": [
+        "pine_labs_rhp_chunk_0452",
+        "pine_labs_rhp_chunk_0453",
+        "pine_labs_rhp_chunk_0457"
+      ],
+      "rationale": "These chunks directly cover the Objects of the Offer. They describe repayment or prepayment of borrowings, investment in specified subsidiaries, investment in IT assets and cloud infrastructure, procurement of digital check-out points, technology development initiatives, and general corporate purposes and unidentified inorganic acquisitions."
+    },
+    {
+      "id": "platform_gtv",
+      "query": "What was Pine Labs' Platform Gross Transaction Value in Fiscal Year 2025?",
+      "relevant_chunk_ids": [
+        "pine_labs_rhp_chunk_0519",
+        "pine_labs_rhp_chunk_1385"
+      ],
+      "rationale": "Both chunks contain the operational KPI table reporting Platform Gross Transaction Value. For Fiscal Year 2025, the disclosed Platform GTV is ₹11,424.97 billion."
+    }
+  ]
+}
