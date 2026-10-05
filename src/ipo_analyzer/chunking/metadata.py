@@ -15,7 +15,7 @@ Rules
 import re
 from dataclasses import dataclass
 
-from chunk import DocumentChunk
+from ipo_analyzer.schemas.chunk import DocumentChunk
 
 
 @dataclass
